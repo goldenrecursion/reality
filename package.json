@@ -1,8 +1,9 @@
 {
   "name": "reality",
   "packageManager": "yarn@3.6.3",
+  "type": "module",
   "scripts": {
-    "lint:tsprune": "ts-prune -e -i bugsnag\\|static/tests\\|mock\\|StoreShape\\|APIError -s .specs.js\\|.stories.js\\|schema.d.ts",
+    "lint:tsprune": "ts-prune -e",
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint_d --quiet \"./**/*.{js,jsx,ts,tsx}\"",
     "lint:tsc:base": "tsc --noEmit --skipLibCheck"
@@ -16,6 +17,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint_d": "^12.2.1",
     "prettier": "^3.0.3",
+    "ts-prune": "^0.10.3",
     "typescript": "^5.2.2"
   }
 }
