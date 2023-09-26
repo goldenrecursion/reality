@@ -4,4 +4,10 @@
     "composite": true,
     "declarationMap": true
   },
+  "files": [],
+  "include": [],
+  "references": [
+    {"path": "./src"},
+    {"path": "./test"}
+  ]
 }
