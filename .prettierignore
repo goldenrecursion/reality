@@ -1,0 +1,16 @@
+/*
+!/src
+!.swcrc
+!*.md
+!*.yml
+!*.yaml
+!*.json
+!*.js
+!*.ts
+!*.cjs
+!*.cts
+!*.mjs
+!*.mts
+
+.pnp.cjs
+.pnp.loader.mjs
