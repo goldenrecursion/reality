@@ -28,6 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tsconfig/node20", "npm:20.1.2"],\
+            ["@types/node", "npm:20.7.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:6b57735d170e78592324ad5e9e624073214fb309d4f2f13b4c01c7d45c37adbab8a9af9fe531767dffbb398dec7d65aa25419610cb5a8bd686bc8520ce6bb345#npm:6.7.3"],\
             ["@typescript-eslint/parser", "virtual:6b57735d170e78592324ad5e9e624073214fb309d4f2f13b4c01c7d45c37adbab8a9af9fe531767dffbb398dec7d65aa25419610cb5a8bd686bc8520ce6bb345#npm:6.7.3"],\
             ["eslint", "npm:8.50.0"],\
@@ -231,6 +233,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@tsconfig/node20", [\
+        ["npm:20.1.2", {\
+          "packageLocation": "./.yarn/cache/@tsconfig-node20-npm-20.1.2-f53f26df5a-fc126e15f0.zip/node_modules/@tsconfig/node20/",\
+          "packageDependencies": [\
+            ["@tsconfig/node20", "npm:20.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/json-schema", [\
         ["npm:7.0.13", {\
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.13-679a4a60fe-345df21a67.zip/node_modules/@types/json-schema/",\
@@ -245,6 +256,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/node", [\
+        ["npm:20.7.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.7.0-55c329fdd3-1b2919925c.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:20.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2663,6 +2683,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["reality", "workspace:."],\
+            ["@tsconfig/node20", "npm:20.1.2"],\
+            ["@types/node", "npm:20.7.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:6b57735d170e78592324ad5e9e624073214fb309d4f2f13b4c01c7d45c37adbab8a9af9fe531767dffbb398dec7d65aa25419610cb5a8bd686bc8520ce6bb345#npm:6.7.3"],\
             ["@typescript-eslint/parser", "virtual:6b57735d170e78592324ad5e9e624073214fb309d4f2f13b4c01c7d45c37adbab8a9af9fe531767dffbb398dec7d65aa25419610cb5a8bd686bc8520ce6bb345#npm:6.7.3"],\
             ["eslint", "npm:8.50.0"],\

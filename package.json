@@ -6,9 +6,11 @@
     "lint:tsprune": "ts-prune -e",
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint_d --quiet \"./**/*.{js,jsx,ts,tsx}\"",
-    "lint:tsc:base": "tsc --noEmit --skipLibCheck"
+    "lint:tsc:base": "tsc --noEmit"
   },
   "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.7.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint": "^8",
